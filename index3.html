@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>	
+	<meta charset="utf-8">
+	<title>		
+		Доступне авто
+	</title>
+</head>
+<body>	
+	<!--info of goverment program-->	
+	<header class="header" align="center">
+		<h1 class="header-title">
+			"ДОСТУПНЕ АВТО"
+		</h1>	
+		<p>
+			Урядова програма "Доступне авто" започаткована з метою полегшення та здевлення розмитнення автомобілів для ветеранів АТО/ООС. 			
+		</p>
+	</header>	
+	<main class="main">	
+		<h4>
+			Для отримання права на пільгове розмитнення заповніть форму нижче:
+		</h4>
+		<form name="gov-prog" action="" method="post">	
+			<fieldset>	
+				<legend>
+					Дані від заявника
+				</legend>	
+				<label for="type-avto">	
+					<strong>
+						Вибiр автомобіля
+					</strong>					
+				</label>	
+				<br>	
+				<select id="type-avto" size="10" multiple="">	
+					<optgroup label="Виберіть тип автомобіля">	
+						<option value="седан">
+							седан
+						</option>	
+						<option value="хетчбек">
+							хетчбек
+						</option>
+						<option value="універсал">
+							універсал
+						</option>
+						<option value="мікроавтобус">
+							мікроавтобус
+						</option>	
+						<option value="купе">
+							купе
+						</option>	
+						<option value="пикап">
+							пикап
+						</option>						
+					</optgroup>		
+					<optgroup label="Виберіть марку автомобіля">
+						<option value="volkswagen">
+						volkswagen
+						</option>	
+						<option value="mercedes-benz">
+							mercedes-benz
+						</option>
+						<option value="opel">
+							opel
+						</option>
+						<option value="bmw">
+							bmw
+						</option>	
+						<option value="nissan">
+							nissan
+						</option>	
+						<option value="audi">
+							audi
+						</option>	
+						<option value="kia">
+							kia
+						</option>	
+						<option value="toyota">
+							toyota
+						</option>
+					</optgroup>	
+					<optgroup label="Виберіть країну походження автомобіля">
+						<option value="Німеччина">
+						Німеччина
+						</option>	
+						<option value="Польща">
+							Польща
+						</option>
+						<option value="Литва">
+							Литва
+						</option>
+						<option value="Бельгія">
+							Бельгія
+						</option>	
+						<option value="Нідерланди">
+							Нідерланди
+						</option>	
+						<option value="Болгарія">
+							Болгарія
+						</option>	
+						<option value="Франція">
+							Франція
+						</option>	
+						<option value="Словаччина">
+							Словаччина
+						</option>
+					</optgroup>
+				</select>	
+				<br>	
+				<br>		
+				<label>	
+					<strong>
+						Поля для введення персональних даних
+					</strong>					
+				</label>	
+				<br>		
+				<input placeholder="Прізвище" type="text" name="name" required>	
+				<input placeholder="Ім'я" type="text" name="name" required>	
+				<input placeholder="По-батькові" type="text" name="name" required>	
+				<br>	
+				<label for="phone">	
+					Введіть номер свого телефону
+				</label>	
+				<input type="tel" id="phone" name="phone" placeholder="+38(000)0000000">	
+				<br>	
+				<label for="UBD">	
+					Введіть серію та номер посвідчення УБД
+				</label>	
+				<input type="text" id="UBD" name="UBD" placeholder="AAA №000000">	
+				<br>
+				<label>
+					Чи завозиви Ви раніше авто з Європи
+				</label>	
+				<input type="radio" id="import-car1" name="import-car" value="yes">	
+				<label for="import-car1">
+					ТАК
+				</label>	
+				<input type="radio" id="import-car2" name="import-car" value="no">	
+				<label for="import-car2">
+					НІ
+				</label>	
+				<br>	
+			</fieldset>	
+			<button type="reset" value="reset">
+				Скинути дані
+			</button>
+			<button type="submit" value="send">
+				Надіслати дані
+			</button>
+		</form>
+	</main>
+</body>
+</html>
